@@ -5,7 +5,7 @@ SnapX is a projects backups utilities for Linux and Termux.
 
 ### Installation
 ```bash
-
+bash <(curl -fsSL https://raw.githubusercontent.com/codebysushil/snapx/main/install.sh)
 ```
 ---
 
