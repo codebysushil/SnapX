@@ -3,7 +3,13 @@ SnapX is a projects backups utilities for Linux and Termux.
 
 ---
 
-## Commands
+### Installation
+```bash
+
+```
+---
+
+### Commands
 
 ```bash
 snapx backup <project-name>
