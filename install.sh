@@ -11,7 +11,7 @@ YELLOW="\e[33m"
 BLUE="\e[34m"
 RESET="\e[0m"
 
-REPO_URL="https://raw.githubusercontent.com/username/snapx/main/snapx"
+REPO_URL="https://raw.githubusercontent.com/codebysushil/SnapX/main/snapx"
 
 echo -e "${BLUE}"
 echo "========================================="
