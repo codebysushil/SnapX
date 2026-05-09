@@ -26,19 +26,25 @@ echo -e "${RESET}"
 detect_os() {
 
     if [ -n "$PREFIX" ] && command -v pkg >/dev/null 2>&1; then
+
         OS="termux"
 
     elif command -v apt >/dev/null 2>&1; then
+
         OS="debian"
 
     elif command -v pacman >/dev/null 2>&1; then
+
         OS="arch"
 
     elif command -v dnf >/dev/null 2>&1; then
+
         OS="fedora"
 
     else
+
         OS="unknown"
+
     fi
 }
 
@@ -95,8 +101,10 @@ install_snapx() {
     curl -fsSL "$REPO_URL" -o snapx
 
     if [ $? -ne 0 ]; then
+
         echo -e "${RED}✖ Failed to download SnapX.${RESET}"
         exit 1
+
     fi
 
     chmod +x snapx
@@ -110,7 +118,7 @@ install_snapx() {
 
     else
 
-        sudo mv snapx /usr/local/bin/snapx"
+        sudo mv snapx /usr/local/bin/snapx
 
     fi
 
